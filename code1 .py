@@ -10,4 +10,3 @@ print("the area is:"+str_area)
 cost = area * miter
 str_cost = str(cost)
 print("the cost is:"+str_cost)
-print("the area is: " + str(area) + " and the cost is: " + str(cost))
