@@ -73,7 +73,6 @@
 # else:
 #     print("sorry, on egyptian ID is give only to egyptian people")
 # print("""
-
 # ´´´´´´´´´´´¶¶´´´´´¶¶¶´´´´¶¶¶¶´´¶¶¶¶¶´´´´¶¶¶´´´´´¶¶¶´´´´´´´´´´
 # ´´´´´´´¶´´¶¶¶´´´´¶¶¶¶´´´´¶¶¶¶´´´¶¶¶¶´´´´¶¶¶¶´´´¶¶¶¶´´¶´´´´´´´
 # ´´´´´´´¶¶´¶¶¶¶¶´´¶¶¶¶´´´¶¶¶¶¶´´´¶¶¶¶¶´´´¶¶¶¶´´¶¶¶¶¶´¶¶´´´´´´´
@@ -122,4 +121,31 @@
 #     print("sorry you can,t chose this box")
 # else:
 #  print("sorry you can,t chose this door")
- 
+print("welcome in tanta")
+name = input("what is your name?\n")
+nationality = input("what is your nationality?\n")
+if nationality == "tanta":
+     print(f"welcome {name}in tanta")
+     communication = input("how would you like to go")
+elif communication == "bus":
+     print("sorry,there is no bus here")
+elif communication == "subway":
+     print("sorry, there is subway here")
+elif communication == "taxi":
+     print("okay, would you like ")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+else:
+    print(f"sorry {name} you can,t enter tanta")    
