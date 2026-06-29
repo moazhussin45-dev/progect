@@ -120,32 +120,29 @@
 #   else:
 #     print("sorry you can,t chose this box")
 # else:
-#  print("sorry you can,t chose this door")
-print("welcome in tanta")
-name = input("what is your name?\n")
-nationality = input("what is your nationality?\n")
-if nationality == "tanta":
-     print(f"welcome {name}in tanta")
-     communication = input("how would you like to go")
-elif communication == "bus":
-     print("sorry,there is no bus here")
-elif communication == "subway":
-     print("sorry, there is subway here")
-elif communication == "taxi":
-     print("okay, would you like ")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-else:
-    print(f"sorry {name} you can,t enter tanta")    
+# # #  print("sorry you can,t chose this door")
+# print("welcome in tanta")
+# name = input("what is your name?\n")
+# nationality = input("what is your nationality?\n")
+# if nationality == "tanta":
+#      print(f"welcome {name} in tanta")
+#      communication = input("how would you like to go\n")
+#      if communication == "bus":
+#       print("sorry,there is no bus here")
+#      elif communication == "subway":
+#       print("sorry, there is subway here")
+#      elif communication == "taxi":
+#       print("okay, would you like color ")
+#      else:
+#       print("sorry, there is no this communication here")
+#      color = input("What color taxi do you like to take?\n ")
+#      if color == "green":
+#            print("sorry there is not green taxi here")
+#      elif color == "red": 
+#              print("sorry there is not red taxi here")
+#      elif color == "yellow":
+#               print("okay, here is a yellow taxi for you")
+#      else:
+#             print("sorry there is no taxi with this color")
+# else:
+#     print(f"sorry {name} you can,t enter tanta")    
